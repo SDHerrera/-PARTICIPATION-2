@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT 9 Q2 PARTICIPATION 2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Quicksand', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #9BB8CD;
+            color: #333;
+        }
+
+        header {
+            background: #FFF7D4;
+            color: #333;
+            padding: 1em;
+            text-align: center;
+            border-bottom: 2px solid #EEC759;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .bucket-item {
+            background: #FFF7D4;
+            padding: 1.5em;
+            border: 2px solid #EEC759;
+            margin-bottom: 1.5em;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(238, 199, 89, 0.2);
+            transition: transform 0.3s ease-in-out;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .bucket-item:before {
+            content: '';
+            background: url('bucket.png') no-repeat center center/cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+
+        .bucket-item:hover {
+            transform: scale(1.03);
+        }
+
+        h2 {
+            color: #EEC759;
+        }
+
+        p {
+            color: #333;
+        }
+
+        a {
+            color: #EEC759;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+
+        a:hover {
+            color: #B1C381;
+        }
+
+        footer {
+            background: #EEC759;
+            color: #333;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🪣2024 Bucket List</h1>
+    </header>
+
+    <section>
+        <div class="bucket-item">
+            <img src="sign language.png" alt="Bucket List Image" height="150" width="150">
+            <p>1. Learn sign language</p>
+        </div>
+        <div class="bucket-item">
+            <img src="book.png" alt="Bucket List Image" height="150" width="150">
+            <p>2. Read 15 books</p>
+        </div>
+        <div class="bucket-item">
+            <img src="freediving.png" alt="Bucket List Image" height="150" width="150">
+            <p>3. Go freediving</p>
+        </div>
+        <div class="bucket-item">
+            <img src="concert.png" alt="Bucket List Image" height="150" width="150">
+            <p>4. Attend a concert</p>
+        </div>
+        <div class="bucket-item">
+            <img src="countryside.png" alt="Bucket List Image" height="150" width="150">
+            <p>5. Visit the Countryside</p>
+        </div>
+        <div class="bucket-item">
+            <img src="picnic.png" alt="Bucket List Image" height="150" width="150">
+            <p>6. Go on a picnic</p>
+        </div>
+        <div class="bucket-item">
+            <img src="horse.png" alt="Bucket List Image" height="150" width="150">
+            <p>7. Horse ridding</p>
+        </div>
+        <div class="bucket-item">
+            <img src="theater.png" alt="Bucket List Image" height="150" width="150">
+            <p>8. Watch a theater play</p>
+        </div>
+        <div class="bucket-item">
+            <img src="journal.png" alt="Bucket List Image" height="150" width="150">
+            <p>9. Start a journal</p>
+        </div>
+        <div class="bucket-item">
+            <img src="cook.png" alt="Bucket List Image" height="150" width="150">
+            <p>10. Learn to cook</p>
+        </div>
+        <div class="bucket-item">
+            <img src="trip.png" alt="Bucket List Image" height="150" width="150">
+            <p>11. Go on a road trip</p>
+        </div>
+        <div class="bucket-item">
+            <img src="photography.png" alt="Bucket List Image" height="150" width="150">
+            <p>12. Learn photography</p>
+        </div>
+    </section>
+</body>
+</html>
+
